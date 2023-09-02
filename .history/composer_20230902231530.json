@@ -17,21 +17,21 @@
     "require": {
         "php": "^8.0",
         "ext-json": "*",
-        "illuminate/contracts": "^v10.21.0",
-        "illuminate/support": "^v10.21.0",
-        "doctrine/dbal": "^3.6.6",
-        "composer/composer": "^2.1",
-        "emptynick/voyager-tiptap": "v2.10",
-        "spatie/laravel-image-optimizer": "^1.7.1",
-        "intervention/image": "^2.7.2",
-        "inertiajs/inertia-laravel": "^v0.6.9",
-        "tightenco/ziggy": "^v1.6.2",
-        "guzzlehttp/guzzle": "^7.8.0"
+        "illuminate/contracts": "^9.0",
+        "illuminate/support": "^9.0",
+        "doctrine/dbal": "^3.3",
+        "composer/composer": "^2.0",
+        "emptynick/voyager-tiptap": "*",
+        "spatie/laravel-image-optimizer": "^1.7",
+        "intervention/image": "^2.7",
+        "inertiajs/inertia-laravel": "^0.5.4",
+        "tightenco/ziggy": "^1.4",
+        "guzzlehttp/guzzle": "^7.4"
     },
     "require-dev": {
-        "orchestra/testbench": "^v8.10.0",
+        "orchestra/testbench": "^7.0",
         "voyager-admin/voyager-testbench-plugin": "*",
-        "nunomaduro/larastan": "^v2.6.4"
+        "nunomaduro/larastan": "^1.0.2"
     },
     "scripts": {
         "test": "./vendor/bin/phpunit --no-coverage",
